@@ -1,0 +1,6 @@
+rotary_geared/0cpl/1act(rotary)/0spr             cost  2.182  rmse  0.59deg  hold  0.44  E  26.0J  mass  0.25kg
+    terms: track=0.59 cap=0.11 rate=0.11 energy=0.78 mass=0.30 complexity=0.30
+direct_linear/0cpl/1act(linear)/0spr             cost  2.402  rmse  0.52deg  hold  0.43  E  40.9J  mass  0.07kg
+    terms: track=0.52 cap=0.09 rate=0.17 energy=1.23 mass=0.09 complexity=0.30
+four_bar/2cpl/1act(linear)/0spr                  cost  3.110  rmse  0.59deg  hold  0.43  E  39.8J  mass  0.23kg
+    terms: track=0.59 cap=0.22 rate=0.18 energy=1.20 mass=0.28 complexity=0.65

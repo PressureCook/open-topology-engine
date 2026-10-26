@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "topology": {
+    "schema_version": 2,
+    "bodies": [],
+    "joints": [],
+    "actuators": [
+      {
+        "id": "a0",
+        "innovation": 8,
+        "kind": "rotary",
+        "body_a": null,
+        "body_b": null,
+        "via": [],
+        "p": {
+          "gomega": 0.2386701987214616,
+          "gratio": 0.7248284352792166,
+          "gtau": 0.24379981391812522
+        }
+      }
+    ],
+    "springs": [],
+    "hints": {},
+    "theta_ref": 1.0471975511965976,
+    "meta": {
+      "birth": {
+        "103": 2
+      },
+      "parents": [
+        "c1ed7908",
+        "87765874"
+      ],
+      "seed_topology": "rotary_geared"
+    }
+  },
+  "actuators": [
+    {
+      "id": "a0",
+      "kind": "rotary",
+      "tau_motor_Nm": 0.089,
+      "gear_ratio": 84.5,
+      "stages": 3,
+      "eta_gearbox": 0.729,
+      "tau_out_Nm": 5.49,
+      "reflected_inertia_kg_m2": 0.00729,
+      "mass_kg": 0.246
+    }
+  ],
+  "transmission_summary": {
+    "r_range_mm": {
+      "a0": "ratio 84.5:1"
+    },
+    "I_eff_range_kg_m2": [
+      0.12081028112159248,
+      0.12081028112159249
+    ],
+    "min_reciprocal_condition": 1.0
+  },
+  "performance": {
+    "rmse_deg": 0.5916394202835097,
+    "rmse_holdout_deg": 0.4431870800130392,
+    "energy_J": 25.982446859915516,
+    "energy_per_actuator_J": [
+      25.982446859915516
+    ],
+    "effort_peak": [
+      0.053353088985042686
+    ],
+    "effort_demand_peak": [
+      0.053353088985042686
+    ],
+    "sat_excess": 0.0,
+    "greedy_vs_qp_rmse_deg": 3.7162282254352903e-14,
+    "system_mass_kg": 0.24631460465533653
+  },
+  "evolution": {
+    "label": "rotary_geared/0cpl/1act(rotary)/0spr",
+    "seed": 7,
+    "pop": 90,
+    "gens": 34,
+    "wall_clock_s": 47.48303198814392
+  },
+  "robustness": {
+    "pass": true,
+    "invalid_fraction": 0.0,
+    "rmse_std_deg": 1.1102230246251565e-16,
+    "rmse_mean_deg": 0.5916394202835098
+  },
+  "robustness_rejected": [],
+  "gate": {
+    "ok": true,
+    "reasons": [],
+    "coverage": 1.0
+  }
+}

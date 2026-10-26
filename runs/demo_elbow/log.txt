@@ -1,0 +1,36 @@
+gen   0  best   2.702  species  5  gate 0.63  rotary_geared/0cpl/1act(rotary)/0spr
+gen   1  best   2.568  species  6  gate 0.72  rotary_geared/0cpl/1act(rotary)/0spr
+gen   2  best   2.480  species  9  gate 0.74  rotary_geared/0cpl/1act(rotary)/1spr
+gen   3  best   2.276  species 12  gate 0.73  rotary_geared/0cpl/1act(rotary)/1spr
+gen   4  best   2.276  species 14  gate 0.76  rotary_geared/0cpl/1act(rotary)/1spr
+gen   5  best   2.250  species  8  gate 0.73  rotary_geared/0cpl/2act(linear+rotary)/0spr
+gen   6  best   2.250  species 10  gate 0.70  rotary_geared/0cpl/2act(linear+rotary)/0spr
+gen   7  best   2.250  species 12  gate 0.74  rotary_geared/0cpl/2act(linear+rotary)/0spr
+gen   8  best   2.250  species  9  gate 0.71  rotary_geared/0cpl/2act(linear+rotary)/0spr
+gen   9  best   2.250  species 12  gate 0.76  rotary_geared/0cpl/2act(linear+rotary)/0spr
+gen  10  best   2.250  species 10  gate 0.71  rotary_geared/0cpl/2act(linear+rotary)/0spr
+gen  11  best   2.250  species  9  gate 0.76  rotary_geared/0cpl/2act(linear+rotary)/0spr
+gen  12  best   2.250  species 12  gate 0.82  rotary_geared/0cpl/2act(linear+rotary)/0spr
+gen  13  best   2.249  species 13  gate 0.71  rotary_geared/0cpl/1act(rotary)/0spr
+gen  14  best   2.249  species 10  gate 0.68  rotary_geared/0cpl/1act(rotary)/0spr
+gen  15  best   2.227  species  9  gate 0.72  rotary_geared/0cpl/1act(rotary)/0spr
+gen  16  best   2.227  species 11  gate 0.79  rotary_geared/0cpl/1act(rotary)/0spr
+gen  17  best   2.227  species  7  gate 0.66  rotary_geared/0cpl/1act(rotary)/0spr
+gen  18  best   2.223  species  8  gate 0.68  rotary_geared/0cpl/1act(rotary)/0spr
+gen  19  best   2.204  species 11  gate 0.70  rotary_geared/0cpl/1act(rotary)/0spr
+gen  20  best   2.200  species  7  gate 0.77  rotary_geared/0cpl/1act(rotary)/0spr
+gen  21  best   2.200  species  8  gate 0.74  rotary_geared/0cpl/1act(rotary)/0spr
+gen  22  best   2.200  species  7  gate 0.79  rotary_geared/0cpl/1act(rotary)/0spr
+gen  23  best   2.200  species  8  gate 0.68  rotary_geared/0cpl/1act(rotary)/0spr
+gen  24  best   2.200  species  7  gate 0.71  rotary_geared/0cpl/1act(rotary)/0spr
+gen  25  best   2.185  species  8  gate 0.74  rotary_geared/0cpl/1act(rotary)/0spr
+gen  26  best   2.185  species  7  gate 0.76  rotary_geared/0cpl/1act(rotary)/0spr
+gen  27  best   2.183  species  7  gate 0.79  rotary_geared/0cpl/1act(rotary)/0spr
+gen  28  best   2.183  species  7  gate 0.74  rotary_geared/0cpl/1act(rotary)/0spr
+gen  29  best   2.183  species  7  gate 0.78  rotary_geared/0cpl/1act(rotary)/0spr
+gen  30  best   2.183  species  8  gate 0.81  rotary_geared/0cpl/1act(rotary)/0spr
+gen  31  best   2.183  species  7  gate 0.78  rotary_geared/0cpl/1act(rotary)/0spr
+gen  32  best   2.182  species  7  gate 0.76  rotary_geared/0cpl/1act(rotary)/0spr
+gen  33  best   2.182  species  8  gate 0.72  rotary_geared/0cpl/1act(rotary)/0spr
+wall clock 47.5 s
+winner rotary_geared/0cpl/1act(rotary)/0spr  gate_ok=True  rmse_fit 0.59 deg  rmse_hold 0.44 deg  greedy-vs-QP 3.716e-14 deg RMS

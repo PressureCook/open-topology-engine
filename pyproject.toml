@@ -1,0 +1,19 @@
+[project]
+name = "open-topology"
+version = "0.1.0"
+description = "Open-topology mechanism evolution - reference implementation of SPEC-open-topology-evolution v0.1"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["open_topology"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
